@@ -1,0 +1,18 @@
+site_name: PF Brinquedos - 2017-1S
+pages:
+  - Home: 'index.md'
+  - Aulas :
+    - 'Introdução ao curso' : 'aulas/introducao-repertorio.md'
+    - 'Brinquedos digitais e ideação' : 'aulas/brinquedos-ideacao.md'
+    - 'Testando jogos' : 'aulas/testando-jogos.md'
+  - Referências : 'referencias.md'
+theme: bootstrap
+extra_css:
+  - css/extra.css
+extra_javascript:
+  - js/extra.js
+markdown_extensions:
+  - smarty
+  - sane_lists
+site_favicon: 'imgs/shuffling.gif'
+repo_url: https://github.com/puccjogos/pf-brinquedos-2017-1s
